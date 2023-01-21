@@ -1,9 +1,57 @@
-.blackpaper {
-    background-color: rgb(40, 40, 40);
-    padding: 20px;
-    margin-bottom: 20px;
+html, body {
+    background-color: dimgrey;
+    margin: 0;
+    padding: 0;
 }
 
-.whitef {
+.top-header {
+    background-color: rgb(48, 48, 48);
+}
+
+.menu-item {
     color: white;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.brand {
+    font: icon;
+    color: rgb(255, 247, 0);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.main-content {
+    max-width: 700px;
+    margin: auto;
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.image {
+    width: 100%;
+}
+
+.button {
+    color: white;
+    background-color: darkcyan;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.bottom-footer {
+    background-color: rgb(31, 31, 31);
+    padding: 20px;
+    text-align: center;
+}
+
+.text-footer {
+    color: white;
+    font-style: initial;
 }
